@@ -1,113 +1,51 @@
-/* This stylesheet is where to add styles for your Shakespeare Play */
-/*We usually add something general for the body*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /*your style rules go in here */
-}
-
-section {
-  border: 0;
-}
-
-/*Here follows the class names that you will have in your html*/
-/*You may have more if you added styles in InDesign*/
-/*You need to add the style attributes between the curly brackets*/
-
-/* the following may not be used but it doesn't matter if they are listed here  */
-
-section.cover {
-  text-align: center;
-  width: 70%;
-  margin: 20px auto;
-}
-
-img.playimage {
-  /* you will need a width attribute in here */
-  max-width: 40%;
-  padding: 20px auto;
-}
-
-img.shakespeareimage {
-  /* you will need a width attribute in here */
-  max-width: 40%;
-  padding: 20px auto;
-}
-
-/* If you have created any new stlyes in InDesign and used export tags then you need to add them here */
-
-section.dramatis {
-}
-section.play {
-}
-div.sceneImage {
-}
-h1.act {
-}
-p.character {
-}
-p.charactername {
-}
-h1.dramatishead {
-}
-h2.firstscene {
-}
-h2.location {
-}
-p.play_location {
-}
-p.prose {
-}
-h2.scene {
-}
-p.song {
-}
-h2.stagedirection {
-}
-p.verseline {
-}
-span.character_role {
-}
-span.stage_directions_inline {
-}
-
-span.character_beforespeech {
-}
-
 body{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background-color: cornsilk;
+font-family: Arial, Helvetica, sans-serif;
+background-color: blanchedalmond;
+
 
 }
 main{
-    background-color: sandybrown;
+    background-color: blanchedalmond;
     border: 2px solid coral;
     width: 70% ;
     margin:0 auto;
     max-width: 600px;
-    padding: 0 2em 2em 2em;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
 
 }
-figure{
-    border: 1px solid crimson;
-    width: 80%;
-    margin: 6px auto;
+
+figure.image{
+    width: 60%;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: auto;
+
+}
+img{
+    width:90%;/*percentage of parent element*/
+    margin:auto;
+    display: block;
+   
+}
+
+section{
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 h1,h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
-
-}
-img {
-width:100%;
-display: block;
+    font-weight: lighter;
 
 }
-.first {color: darkmagenta;}
+
+
+footer{
+    text-align: 7em;
+
+}
