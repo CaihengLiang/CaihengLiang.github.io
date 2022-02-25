@@ -16,30 +16,45 @@ body {
 /* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
 
 
-.dramatis-personae, .play {
+.dramatis-personae {
   
   width:70%;
-  margin:12px auto;
+  margin:auto;
   margin-top: 3rem;
   background-color: white;
+  border: 1px solid coral;
+padding: 1rem;
+}
+.play{
 
-padding:1rem;
+  width:70%;
+  margin:auto;
+  margin-top: 0.2rem;
+  background-color: white; 
+  border: 1px solid coral;
+
+
 }
 
 figure {
-  /* width: 80%; */
+  /* width: 85%; */
   margin:0 auto;
-  width: 300px;
+  width: 400px;
   align-items: center;
+
+  margin-bottom: 1em;
 }
 
 img {
   width:100%;
+ 
 }
 div.sceneImage {
 }
 h1.act {
+  background-color: lightblue;
   text-align: center;
+  padding: 8px;
 }
 p.persona {
   font-family: verdana;
@@ -48,6 +63,7 @@ p.persona {
 
 }
 span.character_role {
+  font-style: italic;
   font-family: sans-serif;
   font-weight: 100;
   color: black;
@@ -57,11 +73,15 @@ h1.dramatishead {
 }
 h2.firstscene {
   text-align: center;
+  color: crimson;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }
 h2.location {
   font-family: verdana;
   font-weight: 100;
-  font-size: 16px;
+  font-size: 14px;
+  color: blue;
 }
 h2.stagedirection{
   font-family: franklin;
@@ -78,14 +98,27 @@ p.play_location {
 }
 
 p.prose {
+  margin: 0 0 0.4em 8em;
 }
 h2.scene {
   text-align: center;
+  color: crimson;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+  background-color: lightblue;
+  padding: 8px;
 }
 p.song {
+  margin: 0 0 0.4em 8em;
+  font-style: italic;
 }
 h2.stagedirection {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-style: italic;
+ 
 }
+
 .verseline {
   margin: 0 0 0.4em 8em;
 }
@@ -95,15 +128,17 @@ span.stage_directions_inline {
 }
 
 span.character_beforespeech {
+
 }
 .Character-_beforespeech{
   display:block;
   position: relative;
-  left: -7em;
-  top:1em;
+  left: -6.8em;
+  top: 0.75em;
   font-size: 1.1em;
   width: 4em;
   margin: -0.29em;
+  color: blue;
 }
 
 nav {
