@@ -60,3 +60,15 @@ footer{
     text-align: center;
 
 }
+.playlink{
+
+    margin-top: 1em;
+    text-align: center;
+    padding: 1em;
+}
+.playlink:hover{
+    background-color: crimson;
+}
+.playlink a {
+    color: white;
+}

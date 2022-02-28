@@ -178,7 +178,9 @@ nav ul li {
   flex: 0 0 8rem; /*the same as flex-grow, flex-shrink, flex-basis */
   text-align: center;
 }
-
+li.home{
+  margin-right: auto;
+}
 
 nav ul li a {
   text-decoration: none;
