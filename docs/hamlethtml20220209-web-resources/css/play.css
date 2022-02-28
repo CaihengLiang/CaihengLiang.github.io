@@ -5,7 +5,7 @@
 }
 
 html{
-  scroll-padding-top:200px;
+  scroll-padding-top:80px;
 }
 body {
   background-color: blanchedalmond;
@@ -37,7 +37,7 @@ padding: 1rem;
 }
 
 figure {
-  /* width: 85%; */
+  /* width: 70%; */
   margin:0 auto;
   width: 300px;
   align-items: center;
@@ -142,11 +142,15 @@ span.character_beforespeech {
 }
 
 nav {
+  display: block;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   background-color: grey;
+  font-size: 0.8em;
+  
+
 }
 
 
