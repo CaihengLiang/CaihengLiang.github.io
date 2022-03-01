@@ -11,6 +11,20 @@ body {
   background-color: blanchedalmond;
 }
 
+.backtotop {
+  position: fixed;
+  bottom: 3px;
+  right: 12px;
+  opacity: 0.9;
+}
+.backtotop a {
+  text-decoration: none;
+  font-size: 3em;
+  color: darkgreen;
+}
+.backtotop a:hover{
+  color: black;
+}
 /* the following may not be used but it doesn't matter if they are listed here  */
 
 /* If you ahe created any new styles in InDesign and used export tags then you need to add them here */

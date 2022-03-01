@@ -10,11 +10,13 @@ main{
     margin:0 auto;
     max-width: 700px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  
 }
 
 figure{
-    width: 100%;
+    width: 70%;
     flex-basis: 300px;
     flex-grow: 1;
     flex-shrink: 1;
@@ -27,6 +29,11 @@ img{
     margin: 0.5em;
     display: block;
    
+}
+@media screen and (max-width: 600px){
+    .section{
+        font-size: 00.8em;
+    }
 }
 
 section{
