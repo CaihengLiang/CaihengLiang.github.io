@@ -23,7 +23,7 @@ body {
   color: darkgreen;
 }
 .backtotop a:hover{
-  color: black;
+  color: rgba(12, 8, 218, 0.918);
 }
 /* the following may not be used but it doesn't matter if they are listed here  */
 
